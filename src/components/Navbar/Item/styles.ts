@@ -25,30 +25,23 @@ export const Container = styled.div`
   }
 
   &:nth-child(2) {
-    grid-column-start: 3;
-    grid-column-end: 6;
-    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
     grid-row-end: 9;
   }
 
-  &:nth-child(3) {
+  &:nth-child(4) {
     grid-column-start: 6;
     grid-column-end: 9;
     grid-row-start: 1;
     grid-row-end: 4;
   }
 
-  &:nth-child(4) {
+  &:nth-child(5) {
     grid-column-start: 6;
     grid-column-end: 9;
     grid-row-start: 4;
-    grid-row-end: 9;
-  }
-
-  &:nth-child(5) {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 5;
     grid-row-end: 9;
   }
 `
